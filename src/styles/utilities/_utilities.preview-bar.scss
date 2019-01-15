@@ -1,0 +1,7 @@
+// Fix for broken preview bar when developing locally
+// Known Shopify issue, bug made by Shopify Core team
+// See: https://github.com/Shopify/slate/issues/420
+iframe[src="//localhost:3000/preview_bar"] {
+    // height: 60px !important;
+    display: none !important;
+}

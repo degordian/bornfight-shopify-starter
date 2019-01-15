@@ -1,0 +1,40 @@
+{%- section 'product' -%}
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Product",
+        "name": "{{ product.title | escape }}",
+        "url": "{{ shop.url }}{{ product.url }}",
+        "image": [
+            "https:{{ product.featured_image.src | img_url: image_size }}"
+        ],
+        "description": "{{ product.description | strip_html | escape }}",
+        "sku": "{{ current_variant.sku }}",
+        "brand": {
+            "@type": "Thing",
+            "name": "{{ product.vendor | escape }}"
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "http://schema.org/{%- if product.available -%}InStock{%- else -%}OutOfStock{%- endif -%}",
+                "price": "{{ variant.price | divided_by: 100.00 }}",
+                "priceCurrency": "{{ shop.currency }}",
+                "url": "{{ shop.url }}{{ variant.url }}",
+                "itemOffered": {
+                    "@type": "Product",
+                    "image": "http:{{ variant.image.src | img_url: variant_image_size }}",
+                    "name": "{{ variant.title | escape }}",
+                    "sku": "{{ variant.sku }}",
+                    "weight": {
+                        "@type": "QuantitativeValue",
+                        "unitCode": "{{ variant.weight_unit }}",
+                        "value": "{{ variant.weight | weight_with_unit: variant.weight_unit }}"
+                    },
+                    "url": "{{ shop.url }}{{ variant.url }}"
+                }
+            }{%- unless forloop.last -%},{%- endunless -%}
+        ]
+    }
+</script>

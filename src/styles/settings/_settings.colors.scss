@@ -1,0 +1,31 @@
+$settings-colors: (
+        'default': (
+                'white': #ffffff,
+                'black': #000000
+        ),
+        'html': (
+                'text': #000000,
+                'background': #ffffff
+        ),
+        'primary': (
+                'white': #ffffff,
+                'black': #000000
+        ),
+        'variations': (
+                'black-0': rgba(#000000, 0),
+                'black-10': rgba(#000000, 0.1),
+                'black-20': rgba(#000000, 0.2),
+                'black-30': rgba(#000000, 0.3),
+                'black-40': rgba(#000000, 0.4),
+                'black-50': rgba(#000000, 0.5),
+                'black-60': rgba(#000000, 0.6),
+                'black-70': rgba(#000000, 0.7),
+                'black-80': rgba(#000000, 0.8),
+                'black-90': rgba(#000000, 0.9),
+                'black-100': rgba(#000000, 1),
+        ),
+        'form': (
+                'error-red': #fa0000,
+                'success-green': #6dd348,
+        )
+);

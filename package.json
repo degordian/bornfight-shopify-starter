@@ -1,18 +1,18 @@
 {
-  "name": "starter-theme",
-  "version": "1.0.0-alpha.1",
+  "name": "bornfight-shopify-starter",
+  "version": "1",
   "private": true,
-  "author": "Shopify Inc.",
-  "description": "An opinionated, Slate compatible, starting point for developing Shopify themes.",
+  "author": "Bornfight",
+  "description": "This is a start kit for Shopify projects by Bornfight agency. Kit is compatible with Shopify Slate and based on Shopify starter theme. SCSS structure is Bornfights project starter kit standard.",
   "keywords": [
     "shopify",
     "theme"
   ],
-  "bugs": "https://github.com/Shopify/starter-theme/issues",
+  "bugs": "https://github.com/degordian/bornfight-shopify-starter/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shopify/starter-theme.git"
+    "url": "https://github.com/degordian/bornfight-shopify-starter.git"
   },
   "devDependencies": {
     "@shopify/slate-tools": "1.0.0-beta.14",

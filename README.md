@@ -1,8 +1,10 @@
 # Bornfight starter theme for Shopify
-This is a start kit for Shopify projects. Kit is runned by Shopify Slate and based on Shopify's starter theme. SCSS structure is Bornfight's project starter kit standard.
+This is a start kit for Shopify projects by Bornfight agency. Kit is compatible with Shopify Slate and based on Shopify's starter theme. SCSS structure is Bornfight's project starter kit standard.
 
-[Slate v1 documentation](https://github.com/Shopify/slate)
+[Slate](https://github.com/Shopify/slate)
+[Slate v1 documentation](https://github.com/Shopify/slate/wiki)
 [Shopify starter theme](https://github.com/Shopify/starter-theme)
+[Slate system requirements](https://github.com/Shopify/slate/wiki/1.-System-requirements)
 
 ## Creating new Shopify project with bornfight-shopify-starter
 1) Create development store 
@@ -16,6 +18,7 @@ Project should now be ready to go, with installed npm
 7) Create a new private app by navigating to your store’s private apps page (Apps > Manage private apps), giving the private app a name and setting the Theme templates and theme assets to “Read and write”. This will generate a password needed for connecting online theme with local theme.
 8) Go back to PHP storm and find and edit `.env` file, this is config file for connecting local theme with development store
 For example:
+
 ```
 # The myshopify.com URL to your Shopify store
 SLATE_STORE={store-name}.myshopify.com
@@ -29,6 +32,7 @@ SLATE_THEME_ID=32112656003
 # A list of file patterns to ignore, with each list item separated by ':'
 SLATE_IGNORE_FILES=config/settings_data.json
 ```
+
 Where 
 - SLATE_STORE is url to development store without htpps
 - SLATE_PASSWORD is password from step 7
@@ -43,9 +47,16 @@ Slate will open local server for development and manage your assets with webpack
 - `yarn format` - Formats the theme code according to the rules declared in the .eslintrc and .stylelintrc files. By default, it uses ESLint Fix to format JS files, Stylelint Fix to format CSS files and Prettier to format JSON files.
 - `yarn lint` - Runs linting
 - `yarn start` - Compiles your local theme files into a dist directory, uploads these files to your remote Shopify store and finally boots up a local Express server that will serve most of your CSS and JavaScript.
+- `yarn watch` - Same as upper but skips first deploy (faster start)
 - `yarn zip`  - Compiles the contents of the dist directory and creates a ZIP file in the root of the project.
 
 So to start developing you must rund `yarn start`, and for deployment `yarn deploy`
+
+#### Possible issues:
+If your assets are not being served via local server, and console is full of `ERR_CERT_AUTHORITY_INVALID` errors, you will need to accept chrome warning about https on address Browsersync has printed when you run `yarn start`.
+
+[See issues](https://github.com/Shopify/slate/issues?utf8=%E2%9C%93&q=is%3Aissue+localhost%3A3000)  
+
 
 ## Writing Liquid
 [Liquid documentation](https://help.shopify.com/en/themes/liquid)

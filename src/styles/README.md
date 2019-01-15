@@ -10,6 +10,8 @@ This architecture is based on [inuticss](https://github.com/inuitcss/inuitcss) f
 * `/elements` - HTML elements with no classes (a, p, ul, ol, blockquote, address, etc.)
 * `/objects` - objects, abstractions, and design patterns
 * `/components` - discrete, complete chunks of UI
+* `/sections` - for shopify sections
+* `/templates` - for shopify templates
 * `/utilities` - high-specificity, very explicit selectors, overrides and helper classes
 
 ## Naming convention

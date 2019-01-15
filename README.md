@@ -9,11 +9,11 @@ This is a start kit for Shopify projects by Bornfight agency. Kit is compatible 
 ## Creating new Shopify project with bornfight-shopify-starter
 1) Create development store 
 2) Open terminal and Projects/Work folder
-3) Run `yarn create slate-theme [THEME_NAME] degordian/bornfight-shopify-starter`
-For example `yarn create slate-theme my-new-theme degordian/bornfight-shopify-starter`
+3) Run `yarn create slate-theme [THEME_NAME] degordian/bornfight-shopify-starter` .
+For example: `yarn create slate-theme my-new-theme degordian/bornfight-shopify-starter`
 Project should now be ready to go, with installed npm
 4) Open project in PHP storm and run `yarn zip`, that will build and zip the files as a Shopify theme.
-5) Upload that theme to developemnt store from first step (Online store > Themes > Upload theme), publish it.
+5) Upload that theme to development store from first step (Online store > Themes > Upload theme), publish it.
 6) Get theme ID - when theme is published it will be on the first place in theme list, click Actions > Edit code. This will open Shopify code editor, theme ID is last set of numbers in browser url after /themes/. For example `https://your-shop-name.myshopify.com/admin/themes/20842139465` . So theme ID here is `20842139465`. You will need this when you connect online theme with local theme.
 7) Create a new private app by navigating to your store’s private apps page (Apps > Manage private apps), giving the private app a name and setting the Theme templates and theme assets to “Read and write”. This will generate a password needed for connecting online theme with local theme.
 8) Go back to PHP storm and find and edit `.env` file, this is config file for connecting local theme with development store
@@ -50,7 +50,7 @@ Slate will open local server for development and manage your assets with webpack
 - `yarn watch` - Same as upper but skips first deploy (faster start)
 - `yarn zip`  - Compiles the contents of the dist directory and creates a ZIP file in the root of the project.
 
-So to start developing you must rund `yarn start`, and for deployment `yarn deploy`
+So to start developing you must run `yarn start`, and for deployment `yarn deploy`
 
 #### Possible issues:
 If your assets are not being served via local server, and console is full of `ERR_CERT_AUTHORITY_INVALID` errors, you will need to accept chrome warning about https on address Browsersync has printed when you run `yarn start`.

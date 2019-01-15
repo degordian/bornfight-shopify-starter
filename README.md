@@ -60,6 +60,7 @@ If your assets are not being served via local server, and console is full of `ER
 
 ## Writing Liquid
 [Liquid documentation](https://help.shopify.com/en/themes/liquid)
+
 When writing liquid code, generated HTML is bloated with whitespace.
 For example, calling a snippet `{% include 'snippet' %}` produces:
 

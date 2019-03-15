@@ -17,6 +17,8 @@
 @import "tools/tools.transitions";
 @import "tools/tools.zindex";
 @import "tools/tools.clearfix";
+@import "tools/tools.visually-hidden";
+@import "tools/tools.visually-shown";
 // GENERIC
 @import "generic/generic.reset";
 // ELEMENTS
@@ -27,10 +29,13 @@
 @import 'components/components.buttons';
 @import 'components/components.icons';
 @import 'components/components.responsive-images';
+@import 'components/components.responsive-tables';
+@import 'components/components.rte';
 // SECTIONS
 // TEMPLATES
 @import 'templates/templates.gift-card';
 @import 'templates/templates.product';
 // UTILITIES
+@import "utilities/utilities.shopify-helpers";
 @import "utilities/utilities.clearfix";
 @import "utilities/utilities.preview-bar";

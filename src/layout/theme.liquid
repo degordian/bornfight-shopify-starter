@@ -14,13 +14,13 @@
     {%- capture seo_title -%}
         {{- page_title -}}
         {%- if current_tags -%}
-            {%- assign meta_tags = current_tags | join: ', ' -%} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+            {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
         {%- endif -%}
-        {%- if current_page != 1 -%}
+        {%- if current_page != 1 %}
             &ndash; {{ 'general.meta.page' | t: page: current_page -}}
         {%- endif -%}
     {%- assign escaped_page_title = page_title | escape -%}
-        {%- unless escaped_page_title contains shop.name -%}
+        {%- unless escaped_page_title contains shop.name %}
             &ndash; {{ shop.name -}}
         {%- endunless -%}
     {%- endcapture -%}
@@ -53,7 +53,7 @@
     {{ content_for_header }}
 </head>
 
-<body id="{{ page_title | handle }}" class="template-{{ template.name | handle -}}">
+<body id="{{ page_title | handle }}" class="template-{{- template.name | handle -}}">
 
 {%- section 'header' -%}
 

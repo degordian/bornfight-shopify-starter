@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@degordian/sassbox": "^0.4.0",
-    "@shopify/theme-a11y": "^1.0.1",
+    "@shopify/theme-a11y": "^3.0.3",
     "@shopify/theme-addresses": "^3.0.3",
     "@shopify/theme-cart": "^3.0.3",
     "@shopify/theme-currency": "^3.0.3",

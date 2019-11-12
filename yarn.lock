@@ -4241,6 +4241,11 @@ fast-diff@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.1.2.tgz#4b62c42b8e03de3f848460b639079920695d0154"
 
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
+
 fast-glob@^2.0.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-2.2.2.tgz#71723338ac9b4e0e2fff1d6748a2a13d5ed352bf"
@@ -8160,12 +8165,13 @@ postcss-selector-parser@^4.0.0:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-sorting@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-3.1.0.tgz#af7c90ee73ad12569a57664eaf06735c2e25bec0"
+postcss-sorting@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-4.1.0.tgz#a107f0bf3852977fa64e4442bc340c88d5aacdb3"
+  integrity sha512-r4T2oQd1giURJdHQ/RMb72dKZCuLOdWx2B/XhXN1Y1ZdnwXsKH896Qz6vD4tFy9xSjpKNYhlZoJmWyhH/7JUQw==
   dependencies:
     lodash "^4.17.4"
-    postcss "^6.0.13"
+    postcss "^7.0.0"
 
 postcss-styled@>=0.33.0, postcss-styled@^0.33.0:
   version "0.33.0"
@@ -8213,7 +8219,7 @@ postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.13, postcss@^6.0.14, postcss@^6.0.8:
+postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.8:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   dependencies:
@@ -8240,6 +8246,13 @@ prepend-http@^1.0.0, prepend-http@^1.0.1:
 preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
+  dependencies:
+    fast-diff "^1.1.2"
 
 "prettier@<2.0 >= 1.9.2", prettier@^1.10.2:
   version "1.14.2"
@@ -9719,32 +9732,48 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylelint-config-prettier@^3.0.4, stylelint-config-prettier@^3.3.0:
+stylelint-config-prettier@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-3.3.0.tgz#cc22a4b5310c1919cee77131d6e220c60a62a480"
   dependencies:
     stylelint "^9.1.1"
 
-stylelint-config-shopify@^5.0.0:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/stylelint-config-shopify/-/stylelint-config-shopify-5.1.2.tgz#e2239300d92d4e057f340795cd6104137d58817b"
+stylelint-config-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-4.0.0.tgz#8c712977be13bd25191ab8b986b5c07a3342a5dc"
+  integrity sha512-cwh3QbBC2+3zBeMvuxFjT8XsbSdyoyELOY9BZqMuvphUKEQ+srkPWoN60FlvRwLB014TOke4Y12KvTtfKnaHhg==
+
+stylelint-config-shopify@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-shopify/-/stylelint-config-shopify-7.2.1.tgz#07567f0403e6c65525e666502163f6ef5bca76c5"
+  integrity sha512-HChP2m6nvc0QDAsirq9Tyi2PxMIn9iULuS7Ubnf0L1gJhEQS3EueoWpcJRIRm7qXjkQxutff1wwE/XHcen4QJg==
   dependencies:
     merge "1.2.x"
-    stylelint-config-prettier "^3.3.0"
-    stylelint-order "~0.8.1"
-    stylelint-scss "^3.0.0"
+    stylelint-config-prettier "^4.0.0"
+    stylelint-order "1.0.0"
+    stylelint-prettier "1.0.6"
+    stylelint-scss "3.3.0"
 
-stylelint-order@~0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.8.1.tgz#35f71af3a15954154e0e99e5646ba3d6fbe34f8d"
+stylelint-order@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-1.0.0.tgz#089fc3d5cdf7e7d4ac1882f65b60b25db750413c"
+  integrity sha512-2IVM8GzeKIDQDTETNdmgX99ywGrb7OqFWkniCw7QLqS/xONPGMLY/xAQnvGcUS3oBSo8znsoshsWVBqPz2Kv4Q==
   dependencies:
-    lodash "^4.17.4"
-    postcss "^6.0.14"
-    postcss-sorting "^3.1.0"
+    lodash "^4.17.10"
+    postcss "^7.0.2"
+    postcss-sorting "^4.0.0"
 
-stylelint-scss@^3.0.0:
+stylelint-prettier@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-1.0.6.tgz#479b76336751cb617c5beb7545d05a791f945e1e"
+  integrity sha512-XKlTyJHJYiyXs9JXRMt2FQxMJoBSjz4I6+4+/R3o8/ePof19v9naC4d0zsMKUJ88by81+qHfqXBLfmAalu46cg==
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
+
+stylelint-scss@3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.3.0.tgz#0de0ef241d347e32ed28a2cffb8397c37ae2738c"
+  integrity sha512-1E54Tsx/RPJDbGqLK8LcCUa62dB+KRg4zhqo/ub38PBpf16qz5mY/6VJCkQHSU3MygyyJDiFf/J5TLLznrRmGA==
   dependencies:
     lodash "^4.17.10"
     postcss-media-query-parser "^0.2.3"

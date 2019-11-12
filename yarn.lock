@@ -353,9 +353,10 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-1.0.1.tgz#0081521a779a90d16969ac464c7a4e365bae1886"
 
-"@shopify/theme-addresses@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-addresses/-/theme-addresses-1.0.0.tgz#204327c8fbf2e2382c5af5532d3f8176a5111b42"
+"@shopify/theme-addresses@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-addresses/-/theme-addresses-3.0.3.tgz#3f2d3347dea8a14a3faf1d76d40166bb0060a76e"
+  integrity sha512-+xvOrJHX25dQcJTVNNeCkCw4E7gtFfZPWCDP661ZYhPFQLHVifJ5VV4CZIYbu/SmAVA+29G1fAvLebJI5JSusA==
 
 "@shopify/theme-cart@^1.0.0-alpha.7":
   version "1.0.0-alpha.7"

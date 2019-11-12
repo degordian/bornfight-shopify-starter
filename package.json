@@ -34,7 +34,7 @@
     "jquery": "^3.4.0",
     "lazysizes": "^4.1.1",
     "lodash-es": "^4.17.14",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^8.0.1"
   },
   "scripts": {
     "start": "slate-tools start",

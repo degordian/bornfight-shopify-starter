@@ -33,7 +33,7 @@
     "@shopify/theme-variants": "^1.0.0-alpha.8",
     "jquery": "^3.4.1",
     "lazysizes": "^5.1.2",
-    "lodash-es": "^4.17.14",
+    "lodash-es": "^4.17.15",
     "normalize.css": "^8.0.1"
   },
   "scripts": {

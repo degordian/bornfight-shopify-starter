@@ -25,7 +25,7 @@
     "@degordian/sassbox": "^0.4.0",
     "@shopify/theme-a11y": "^1.0.1",
     "@shopify/theme-addresses": "^3.0.3",
-    "@shopify/theme-cart": "^1.0.0-alpha.7",
+    "@shopify/theme-cart": "^3.0.3",
     "@shopify/theme-currency": "^3.0.3",
     "@shopify/theme-images": "^3.0.3",
     "@shopify/theme-rte": "^3.0.3",

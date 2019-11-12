@@ -19,7 +19,7 @@
     "babel-preset-shopify": "^20.1.0",
     "eslint-plugin-shopify": "^19.0.0",
     "stylelint-config-prettier": "^3.0.4",
-    "stylelint-config-shopify": "^5.0.0"
+    "stylelint-config-shopify": "^7.2.1"
   },
   "dependencies": {
     "@degordian/sassbox": "^0.4.0",

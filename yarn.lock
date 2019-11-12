@@ -1087,9 +1087,10 @@
   resolved "https://registry.yarnpkg.com/@shopify/theme-addresses/-/theme-addresses-3.0.3.tgz#3f2d3347dea8a14a3faf1d76d40166bb0060a76e"
   integrity sha512-+xvOrJHX25dQcJTVNNeCkCw4E7gtFfZPWCDP661ZYhPFQLHVifJ5VV4CZIYbu/SmAVA+29G1fAvLebJI5JSusA==
 
-"@shopify/theme-cart@^1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-cart/-/theme-cart-1.0.0-alpha.7.tgz#7065012c580fe8944f9e897f5404dbf8e1ccad01"
+"@shopify/theme-cart@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-cart/-/theme-cart-3.0.3.tgz#968251e8364f88c78921e5830e9d2416d565ec6f"
+  integrity sha512-J+BSQHs4nDZGLEyD6Med5iKpiQ+zD2/yMG/de0Qo1vZHYxcnmUINsjTBSJh2EvsjdI1hwycSVSDfISqjKN+jTg==
 
 "@shopify/theme-currency@^3.0.3":
   version "3.0.3"

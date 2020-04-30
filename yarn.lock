@@ -1009,10 +1009,10 @@
     lodash "^4.17.11"
     path "^0.12.7"
 
-"@shopify/theme-a11y@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-3.0.3.tgz#304292b8443a98b0b8fc597a7c5d54fbb2fa0fdf"
-  integrity sha512-/0jOzLa8pXQUdz7Cpd+ynGQ9zdMj+ABvqVbcUhk0UsbPyyaDMaWIKvAYDczkTOdid8O5q5MQydQuwuc8qwiSBQ==
+"@shopify/theme-a11y@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-3.1.0.tgz#effe056dd8804dc6485591781e38c72093705df2"
+  integrity sha512-T5d96VtKB28sQeTPw0AuVtvbxbBa9fANUGXhe4g/Hj1cln3vD057dBp4gIOElDLlfzRGYQwsWogrFWtnspA1BA==
 
 "@shopify/theme-addresses@^3.0.3":
   version "3.0.3"

@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+    timezone: Europe/Zagreb
+  open-pull-requests-limit: 10
+  target-branch: master
+  ignore:
+  - dependency-name: "@shopify/theme-addresses"
+    versions:
+    - 4.1.0
+  - dependency-name: "@shopify/theme-images"
+    versions:
+    - 4.1.0
+  - dependency-name: "@shopify/theme-a11y"
+    versions:
+    - 4.1.0
+  - dependency-name: "@shopify/theme-currency"
+    versions:
+    - 4.1.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  commit-message:
+    prefix: "Automerge - "
